@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignments: Name Surname</title>
+<style>
+:root{--bg:#0a0e16;--panel:#131926;--card:#1a2030;--line:#262e40;--text:#e8ecf4;--accent:#5b8def}
+*{box-sizing:border-box;margin:0}
+body{min-height:100vh;font-family:"Segoe UI",system-ui,Arial,sans-serif;color:var(--text);background:linear-gradient(180deg,#0b0f17,#121a28 40%,#0a0e16) fixed}
+header{padding:20px 34px 18px;background:rgba(8,11,18,.85);border-bottom:1px solid #161d2b}
+h1{font-size:2.1rem}
+main{padding:20px 34px 40px;display:grid;gap:40px}
+section{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px 20px 16px}
+h2{font-size:1.4rem;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;padding:0 10px 10px}
+.grid a{display:flex;align-items:center;justify-content:center;height:80px;padding:0 10px;text-align:center;color:var(--text);text-decoration:none;font-weight:600;background:var(--card);border:1px solid var(--line);border-radius:10px;transition:background .15s,border-color .15s}
+.grid a:hover{background:#222b40;border-color:var(--accent)}
+.grid a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media(max-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){header,main{padding-left:14px;padding-right:14px}h1{font-size:1.5rem}.grid{grid-template-columns:repeat(2,1fr)}.grid a{height:64px}}
+</style>
+</head>
+<body>
+<header><h1>Assignments: Name Surname</h1></header>
+<main>
+  <section>
+    <h2>Section 1: HTML Basics</h2>
+    <nav class="grid" aria-label="Section 1 assignments">
+      <a href="section1/assignment1.html" title="Student Profile Page">Assignment 1</a>
+      <a href="section1/assignment2.html" title="HTML Document Structure">Assignment 2</a>
+      <a href="section1/assignment3.html" title="Common HTML Elements">Assignment 3</a>
+      <a href="section1/assignment4.html" title="Forms in HTML">Assignment 4</a>
+      <a href="section1/assignment5.html" title="Semantic vs Non-Semantic">Assignment 5</a>
+      <a href="section1/assignment6.html" title="UCA Event Page">Assignment 6</a>
+    </nav>
+  </section>
+</main>
+</body>
+</html>
